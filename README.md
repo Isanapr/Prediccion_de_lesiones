@@ -28,7 +28,7 @@ En este codigo se termina de realizar la imputación de datos. Luego se realiza 
 En este codigo se extrae un excel GPS_extra del codigo de Imputación y Feauture Engineering, donde manualmente se agregan las lesiones y el "previous injury". Ese excel se pasa por el código 3_Completando PI para agregarle el feauture EMWA.
 
 #### 4. Balanceo de datos y Modelado
-Finalmente se realiza el balanceo de datos y el entrenamiento de los modelos.
+Finalmente, en este codigo se realiza el balanceo de datos y el entrenamiento de los modelos. Al finalizar el entrenamiento de los modelos, se evalua su rendimiento.
 
 
 ## Referencias
