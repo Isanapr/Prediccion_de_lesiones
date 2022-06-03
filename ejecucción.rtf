@@ -1,0 +1,52 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2576
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid1\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid101\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid201\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid301\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Ejecuci\'f3n de C\'f3digo:\
+\
+1_An\'e1lisis y Limpieza\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}De la carpeta de "Conjuntos de datos" se utiliza "Datos_Hist\'f3ricos_CFM_Original.xlsx" para ejecutar el c\'f3digo de an\'e1lisis y limpieza de datos.\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}De este c\'f3digo se descarga un excel "GPS_clean" qu\'e9 tambi\'e9n ya esta en la carpeta.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls2\ilvl0\cf0 2_Imputaci\'f3n y Feature Engineering\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}De la carpeta de "Conjuntos de datos" se utiliza "GPS clean" (previamente descargado del c\'f3digo 1 _ An\'e1lisis y Limpieza), para ejecutar el c\'f3digo de imputaci\'f3n, feature engineering y suma de las caracteristicas personales.\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}De este c\'f3digo se descarga un excel "GPS_ extra" que tambi\'e9n ya esta en la carpeta.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+3_Completando PI\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls3\ilvl0\cf0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}De la carpeta de "Conjuntos de datos" se utiliza "GPS _extra" (previamente descargado del c\'f3digo 2 Imputaci\'f3n y Feature Engineering) done manualmente se agrega el previous injury y la etiqueta de lesion.\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}Este nuevo documento es llamado "GPS _injury" (tambi\'e9n en la carpeta) y se utiliza para ejecutar el c\'f3digo de previous injury + EMWA\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}De este c\'f3digo se descarga un excel "GPS_injury_complete" qu\'e9 tambi\'e9n ya esta en la carpeta.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+4_ Balanceo de datos y Modelado\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}De la carpeta de "Conjuntos de datos" se utiliza "GPS _injury_complete" (previamente descargado del c\'f3digo3 _Completando PI) para ejecutar el balanceo de datos y el modelado.}
