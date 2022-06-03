@@ -17,8 +17,15 @@ pip install imblearn
 #### 1. Análisis y Limpieza de Datos
 De la primera tabla original de GPS se realiza un análisis de todas las variables. Se eliminan los outliers y se reemplazan con la media. Asimismo, se acotan las fechas a únicamente la temporada de interés que va de Julio 2021 - Noviembre 2021. Adicionalmente se muestra una gráfica de calendario que indica la frecuencia en la cual los jugadores asisten a sus entrenamientos. Por último, se añade la etiqueta de lesión y la columna de lesiones previas.
 
-#### 2. Código Principal
-En el código principal se termina de realizar la imputación de datos. Luego se realiza la ingeniería de características para obtener los valores de Exponential Weighted Moving Average (EWMA), Acute-Chronic Workload Ratio (ACWR) y Monotony (MSWR) para cada una de las variables del GPS. Después de esto se añaden las características personales de los jugadores a la tabla (peso, talla, edad, rol). Finalmente se realiza el balanceo de datos y el entrenamiento de los modelos.
+#### 2. Imputación y Feauture Engineering
+En este codigo se termina de realizar la imputación de datos. Luego se realiza la ingeniería de características para obtener los valores de Exponential Weighted Moving Average (EWMA), Acute-Chronic Workload Ratio (ACWR) y Monotony (MSWR) para cada una de las variables del GPS. Después de esto se añaden las características personales de los jugadores a la tabla (peso, talla, edad, rol). 
+
+
+#### 3. Previous Injury + EMWA
+En este codigo se extrae un excel GPS_extra del codigo de Imputación y Feauture Engineering, donde manualmente se agregan las lesiones y el "previous injury". Ese excel se pasa por el código 3_Completando PI para agregarle el feauture EMWA.
+
+#### 4. Balanceo de datos y Modelado
+Finalmente se realiza el balanceo de datos y el entrenamiento de los modelos.
 
 
 ## Referencias
