@@ -15,7 +15,10 @@ pip install imblearn
 ## Workflow
 
 #### 1. Análisis y Limpieza de Datos
-De la primera tabla original de GPS se realiza un análisis de todas las variables. Se eliminan los outliers y se reemplazan con la media. Asimismo, se acotan las fechas a únicamente la temporada de interés que va de Julio 2021 - Noviembre 2021. Adicionalmente se muestra una gráfica de calendario que indica la frecuencia en la cual los jugadores asisten a sus entrenamientos. Por último, se añade la etiqueta de lesión y la columna de lesiones previas.
+De la primera tabla original de GPS se realiza un análisis de todas las variables. Se eliminan los outliers y se reemplazan con la media. Asimismo, se acotan las fechas a únicamente la temporada de interés que va de Julio 2021 - Noviembre 2021. 
+
+#### 1.1 Calendario
+En este código se muestra una gráfica de calendario que indica la frecuencia en la cual los jugadores asisten a sus entrenamientos. 
 
 #### 2. Imputación y Feauture Engineering
 En este codigo se termina de realizar la imputación de datos. Luego se realiza la ingeniería de características para obtener los valores de Exponential Weighted Moving Average (EWMA), Acute-Chronic Workload Ratio (ACWR) y Monotony (MSWR) para cada una de las variables del GPS. Después de esto se añaden las características personales de los jugadores a la tabla (peso, talla, edad, rol). 
