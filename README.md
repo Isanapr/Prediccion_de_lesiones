@@ -4,6 +4,8 @@ Las lesiones sin contacto en el fútbol resultan en la ausencia de los jugadores
 ## Miembros del Equipo
 #### Fernanda Bueso Medina
 #### Isabel Navarro
+#### Regina Gutierrez
+#### Emilio Cabezas
 
 ## Install
 Download and install the following libraries:
